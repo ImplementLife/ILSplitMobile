@@ -47,7 +47,7 @@ public class MainMenuFragment extends NavFragment {
 
         BTN_SETTINGS("Settings", 1, 0, R.drawable.ic_svg_cancel, n -> {}),
         BTN_NOTIFICATIONS("Notify's", 1, 1, R.drawable.ic_svg_notifications, n -> n.navigate(R.id.fragment_notify_list)),
-        BTN_DISCOUNTS("Discounts", 1, 2, R.drawable.ic_svg_cancel, n -> {}),
+        BTN_DISCOUNTS("Discounts", 1, 2, R.drawable.ic_svg_percent, n -> {n.navigate(R.id.fragment_discount_list);}),
 
         BTN_NEW_REQUISITION("New Req", 2, 2, R.drawable.ic_svg_cancel, n -> {}),
         BTN_BUDGET("Budget", 3, 0, R.drawable.ic_svg_money, n -> n.navigate(R.id.fragment_budget_menu)),

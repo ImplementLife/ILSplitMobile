@@ -61,4 +61,12 @@
               android:name="com.impllife.split.ui.fragment.HistoryFragment"
               android:label="fragment_history"
               tools:layout="@layout/fragment_history"/>
+    <fragment android:id="@+id/fragment_discount_list"
+              android:name="com.impllife.split.ui.fragment.DiscountListFragment"
+              android:label="fragment_discount_list"
+              tools:layout="@layout/fragment_discount_list"/>
+    <fragment android:id="@+id/fragment_discount"
+              android:name="com.impllife.split.ui.fragment.DiscountFragment"
+              android:label="fragment_discount"
+              tools:layout="@layout/fragment_discount"/>
 </navigation>
